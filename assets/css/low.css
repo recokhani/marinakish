@@ -1,0 +1,484 @@
+/* heiden navbar */
+
+.bg-toggle-my{
+    
+    cursor: pointer;
+    margin-left: 20px;
+}
+.my-navbar-bg{
+    background-color: rgb(30, 142, 216);
+    padding:0;
+    opacity: 80%;
+}
+.navbar-text-my{
+    color: #fff;
+    letter-spacing: 2px;
+}
+.my-pad-zwro{
+    padding: 0;
+}
+.my-nav-item-color{
+    width: 100%;
+    background-color: rgb(238, 241, 245);
+    text-align: center;
+    padding: 50px;
+    
+   
+}
+.nav-link:hover{
+    background-color: #fff;
+    
+   
+}
+.nav-link{
+    color: rgb(30, 30, 216);
+    margin: 1px 180px;
+    transition-duration: 0.4s;
+   
+   
+}
+.my-n-1{
+    margin: 1px 180px;
+}
+
+
+
+
+
+/* navbar lg */
+.navabr-main{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-cont-right{
+    display: flex;
+    margin-top: 10px;
+}
+.navbar-logo{
+    margin-right: 20px;
+}
+
+.navbar-text ul{
+    display: flex;
+    padding: 0;
+}
+.navbar-text li{
+    padding: 8px;
+    list-style: none;
+}
+.navbar-text a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(30, 30, 216);
+
+}
+
+/* search */
+.nav-cont-left{
+    display: flex;
+    margin-top: 20px;
+
+}
+.inp-logo-search{
+    padding-left: 50px;
+    position: relative;
+    
+}
+.inp-logo-search i{
+  
+    transform: rotate(90deg);
+}
+.inp-s{
+    position: relative;
+}
+#input-1{
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    border-radius: 5px;
+    border: 2px solid rgb(155, 155, 212) ;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    
+}
+.text-placehokder-color{
+    position: absolute;
+    color:  rgb(30, 30, 216);
+    top: 0;
+    padding-right: 10px;
+    padding-left: 20px;
+    opacity: 60%;
+}
+.btn-logo{
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+}
+.btn-logo i{
+    opacity: 60%;
+}
+
+.bg-usser{
+    background-color: rgb(30, 30, 216);
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px ;
+   
+}
+.bt-s button{
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #999;
+    padding: 0;
+    padding-left:10px;
+    cursor: pointer;
+    color: rgb(30, 30, 216);
+    border-radius: 5px;
+    border: 2px solid rgb(155, 155, 212) ;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.bt-s button i{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    padding: 11px;
+    
+    
+    
+}
+#color-opaa{
+    opacity: 60%;
+}
+/* searchBy tabel */
+.mainSeachbox{
+    width: 220px;
+    height: 35px;
+    border: 1px solid rgb(36, 36, 151);
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    margin-left: 10px;
+}
+.elementSearchbox{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+
+}
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    color: rgb(36, 36, 151);
+    padding: 0px 5px;
+    
+}
+.search:focus{
+   outline: none;
+
+}
+.search-icon{
+    font-size: 15px;
+    color:rgb(36, 36, 151);
+}
+
+
+
+/* create accont with table */
+
+
+.createAccont-main{
+    width: 160px;
+    height: 35px;
+    border: 1px solid rgb(36, 36, 151);
+    border-radius: 10px;
+    position: relative;
+    margin-left: 20px;
+}
+.createAccont-el{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.accont{
+    border: none;
+    background-color: #fff;
+    color:rgb(36, 36, 151) ;
+    font-size: 14px;
+    margin-right: 45px;
+    opacity: 80%;
+    font-weight: 700;
+    vertical-align: middle;
+    align-items: center;
+
+}
+.accont-icon i{
+    
+    height: 100%;
+    font-size: 18px;
+    background-color:rgb(36, 36, 151) ;
+    padding: 6px;
+    border-radius: 10px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: 10px;
+
+}
+
+.underline a{
+    position: relative;
+    padding-bottom: 10px;
+    
+}
+.underline  ::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #111;
+    bottom: 0;
+    left: 0;
+    transform: scale(0,1);
+    transition: transform 0.4s ease;
+}
+.underline :hover::after{
+    transform: scale(1,1);
+}
+
+
+/* navbar End */
+/* <<<<<<<<----------------------------------------------------->>>>>>>>>>>>> */
+
+/* footer */
+.content-f{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.content-f p{
+   padding-top: 10px;
+   text-align: right;
+   font-size: 12px;
+   color:rgb(36, 36, 151);
+   font-weight: 500; 
+}
+.content-f-c{
+    margin-top: 20px;
+    text-align: center;
+}
+.content-f-c p{
+    padding-top: 15px;
+   font-size: 15px;
+   color:rgb(36, 36, 151); 
+   padding-right: 20px;
+}
+.inp-send{
+    position: relative;
+   
+}
+.bt-button{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+.bt-button button{
+    background-color:rgb(36, 36, 151);
+    color: #fff;
+    /* border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; */
+    border-radius: 5px;
+    
+
+}
+
+.text-p-1 p{
+    margin-top: 15px;
+}
+
+.social-media img{
+    width: 32px;
+    
+}
+.bg-light-my{
+    background-color: #fff;
+}
+
+.content-etahdieh{
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.content-neshan{
+    margin-top: 43px;
+    margin-left: 20px;
+}
+
+
+/* low */
+.mainBackground{
+    position: relative;
+    background-color: rgb(238, 241, 245);
+    width: 100%;
+    height:850px;
+    position: relative;
+    padding: 20px;
+    
+}
+.contetn-bg-1{
+   
+    
+   
+    
+}
+
+
+.content-text{
+    
+    text-align: right;
+    height: 800px;
+    background-color: #fff;   
+    border-radius: 20px;
+    margin: 50px;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+.header-text p{
+    margin: 20px 20px;
+    padding: 10px 20px;
+    border-bottom: 1px solid red;
+    max-width: max-content;
+    color: red;
+    
+
+}
+.q-p-1{
+    margin-right: 50px;
+    padding: 20px;
+}
+.q-p-1 h5{
+   color: red;
+   font-size: 12px;
+   margin-bottom: 20px;
+   
+}
+.q-p-1 p{
+   margin-right: 50px;
+   line-height: 25px;
+   color: rgb(36, 36, 151);
+   text-align: justify;
+   font-size: 11px;
+   font-weight: 500;
+   
+}
+.q-p-1 i{
+    padding-left: 10px;
+    font-size: 7px;
+}
+
+/* create by table */
+.mainInputsend{
+    border: 1px solid rgb(36, 36, 151) ;
+    width: 240px;
+    height: 35px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.mainInputsend-el{
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+}
+.send-inp{
+    border: none;
+    background-color: #fff;
+    
+
+}
+.send-inp:focus{
+    outline: none;
+    
+
+}
+.send-btn{
+    border: none;
+    background-color: rgb(36, 36, 151) ;
+    position: absolute;
+    left: -1px;
+    cursor: pointer;
+    bottom: 0;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+.send-btn:focus{
+    outline: none;
+}
+
+/* ***************************************************************************** */
+
+ /* footer */
+ @media screen and (max-width: 990px ) {
+    .content-f-c p{
+        padding-top: 15px;
+       font-size: 12px;
+       font-weight: 700;
+       color:rgb(36, 36, 151); 
+       padding-right: 20px;
+    }
+ }
+  @media screen and (min-width: 991px ) {
+    .content-f-c p{
+        padding-top: 15px;
+       font-size: 15px;
+       color:rgb(36, 36, 151); 
+       padding-right: 20px;
+    }
+ }
+
+  @media screen and (max-width: 990px ) {
+    .bt-button{
+        position: absolute;
+        bottom: 0;
+        left: -22px;
+    }
+ }
+  @media screen and (min-width: 991px ) {
+    .bt-button{
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+    }
+ }
+  @media screen and (min-width: 1000px ) {
+    .bt-button{
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+    }
+ }
+  @media screen and (min-width: 1300px ) {
+    .bt-button{
+        position: absolute;
+        bottom: 0;
+        left: 100px;
+    }
+ }
+ @media screen and (max-width: 800px ) {
+    #heiden ,#heiden-0 ,#heiden-1{
+        display: none;
+    }
+ }
+  @media screen and (max-width: 950px ) {
+    #heiden ,#heiden-0{
+        display: none;
+    }
+ }
